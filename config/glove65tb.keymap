@@ -129,11 +129,11 @@
         function_Mac {
             label = "FUN";
             bindings = <
-&kp FSLH         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
-&kp RC(TAB)      &kp F2            &kp UP_ARROW      &kp RC(W)          &kp LS(N9)        &kp LS(N0)                &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
-&kp LS(RC(TAB))  &kp LEFT          &kp DOWN          &kp RIGHT          &kp RC(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT LC(K)
-&kp LS(MINUS)    &kp LS(EQUAL)     &kp LS(N8)        &kp LS(N7)         &kp RC(C)         &kp RC(V)                 &kp LA(RC(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
-&kp LS(GRAVE)    &kp COMMA         &kp PERIOD        &kp RA(SEMICOLON)  &kp LANGUAGE_1    &mt LEFT_SHIFT LS(RC(V))  &kp RC(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
+&kp FSLH         &kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
+&kp RC(TAB)      &kp F2             &kp UP_ARROW      &kp RC(W)         &kp LS(RG(T))     &kp RG(T)                 &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
+&kp LS(RC(TAB))  &kp LEFT           &kp DOWN          &kp RIGHT         &kp RC(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT LC(K)
+&kp LS(MINUS)    &kp LS(EQUAL)      &kp LS(N8)        &kp LS(N7)        &kp RC(C)         &kp RC(V)                 &kp LA(RC(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
+&kp LS(GRAVE)    &kp LA(SEMICOLON)  &kp LS(N9)        &kp LS(N0)        &kp LANGUAGE_1    &mt LEFT_SHIFT LS(RC(V))  &kp RC(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -192,11 +192,11 @@
         function_Win {
             label = "FUN_Win";
             bindings = <
-&kp FSLH         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
-&kp RC(TAB)      &kp F2            &kp UP_ARROW      &kp LC(W)          &kp LS(N9)        &kp LS(N0)                &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
-&kp LS(RC(TAB))  &kp LEFT          &kp DOWN          &kp RIGHT          &kp LC(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT LC(I)
-&kp LS(MINUS)    &kp LS(EQUAL)     &kp LS(N8)        &kp LS(N7)         &kp LC(C)         &kp LC(V)                 &kp LA(LC(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
-&kp LS(GRAVE)    &kp COMMA         &kp PERIOD        &kp RA(SEMICOLON)  &kp LANGUAGE_1    &mt LEFT_SHIFT LS(LC(V))  &kp LC(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
+&kp FSLH         &kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
+&kp RC(TAB)      &kp F2             &kp UP_ARROW      &kp LC(W)         &kp LS(LC(T))     &kp RG(T)                 &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
+&kp LS(RC(TAB))  &kp LEFT           &kp DOWN          &kp RIGHT         &kp LC(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT LC(I)
+&kp LS(MINUS)    &kp LS(EQUAL)      &kp LS(N8)        &kp LS(N7)        &kp LC(C)         &kp LC(V)                 &kp LA(LC(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
+&kp LS(GRAVE)    &kp LA(SEMICOLON)  &kp LS(N9)        &kp LS(N0)        &kp LANGUAGE_1    &mt LEFT_SHIFT LS(LC(V))  &kp LC(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -244,11 +244,11 @@
         function_And {
             label = "FUN_And";
             bindings = <
-&kp FSLH         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
-&kp RC(TAB)      &kp F2            &kp UP_ARROW      &kp RG(W)          &kp LS(N9)        &kp LS(N0)                &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
-&kp LS(RC(TAB))  &kp LEFT          &kp DOWN          &kp RIGHT          &kp RG(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT F7
-&kp LS(MINUS)    &kp LS(EQUAL)     &kp LS(N8)        &kp LS(N7)         &kp RG(C)         &kp RG(V)                 &kp LA(RG(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
-&kp LS(GRAVE)    &kp COMMA         &kp PERIOD        &kp RA(SEMICOLON)  &kp LANGUAGE_1    &mt LEFT_SHIFT LS(RG(V))  &kp RG(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
+&kp FSLH         &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp DELETE
+&kp RC(TAB)      &kp F2            &kp UP_ARROW      &kp RG(W)         &kp LS(RG(T))     &kp RG(T)                 &trans         &bt BT_SEL 0  &kp Q         &kp W         &kp E         &kp R         &kp T   &mt RIGHT_CONTROL LS(RET)
+&kp LS(RC(TAB))  &kp LEFT          &kp DOWN          &kp RIGHT         &kp RG(F)         &kp APOS                  &kp F4         &bt BT_SEL 1  &kp A         &kp S         &kp D         &kp F         &kp G   &mt LEFT_SHIFT F7
+&kp LS(MINUS)    &kp LS(EQUAL)     &kp LS(N8)        &kp LS(N7)        &kp RG(C)         &kp RG(V)                 &kp LA(RG(V))  &bt BT_SEL 4  &kp Z         &kp X         &kp C         &kp V         &kp B   &to 9
+&kp LS(GRAVE)    &kp COMMA         &kp LS(N9)        &kp LS(N0)        &kp LANGUAGE_1    &mt LEFT_SHIFT LS(RG(V))  &kp RG(A)      &bt BT_SEL 3  &bt BT_SEL 2                                            &to 0   &to 5
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
