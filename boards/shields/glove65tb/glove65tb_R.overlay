@@ -26,12 +26,18 @@
         device = <&trackball>;
         input-processors = <&zip_temp_layer 4 700>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
 
+        // ▼【追加】通常時（スクロールレイヤー以外）でマウスカーソルを動かすためのブロック
+        xy_proc {
+            layers = <0 1 2 3 4 6 7 8 9 10 11 12>; // スクロールレイヤー（5）や使っていない番号を除いた通常レイヤーを指定
+            input-processors = <&zip_xy_scaler 1 1>;
+        };
+
         scroller {
-            layers = <5>;                                      // スクロールレイヤー
+            layers = <5>;                                   // スクロールレイヤー
             input-processors = <
-                &zip_xy_to_scroll_mapper                       // XY移動でスクロール
+                &zip_xy_to_scroll_mapper                    // XY移動でスクロール
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT // スクロールのY軸を反転
-                &zip_scroll_scaler 1 16                        // スクロール感度調整
+                &zip_scroll_scaler 1 16                     // スクロール感度調整
             >;
         };
     };
